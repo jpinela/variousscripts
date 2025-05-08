@@ -4,10 +4,10 @@ A brief description of your project, what it does, and why it exists.
 
 ## 🚀 Arduino
 
-- **ESC Programming** – [Learn more]([https://example.com/features](https://github.com/jpinela/variousscripts/arduino/esc)
+- **ESC Programming** – (https://github.com/jpinela/variousscripts/arduino/esc)
   - Uses caching and optimized algorithms – [Read details](https://example.com/performance)
 
-- **ESP32-Cam** – [Architecture Overview]([https://example.com/architecture](https://github.com/jpinela/variousscripts/arduino/esp32-cam))
+- **ESP32-Cam** – (https://example.com/architecture](https://github.com/jpinela/variousscripts/arduino/esp32-cam))
   - Microservice-based design – [Microservices Guide](https://example.com/microservices)
 
 ## 🛠 Installation
