@@ -21,7 +21,7 @@ The Battery<br/>
 - ALWAYS use a smart charger for Li-Po Batteries.
 - multi-cell batteries need to be balanced. that is what that small plug is for. ALWAYS connect it first to the charger.
 
-Connecting them, is fairly simple. Just the balance plug 1st, then the battery red and black, and wait for about 1-2h for charging.
+Connecting them, is fairly simple. Just the balance plug 1st (the black wire on the right, it is the only way to do it), then the battery red and black, and wait for about 1-2h for charging.
 Read the instructions on the charger. Mine said, blinking green was ready, blinking red was charging, then changing red to green (is was a yellowish green) and then it was a constant green when fully charged. Pretty cool. And after 10 years of waiting!!!!
 
 After this, I used it to try and power the brushless motor [here](https://github.com/jpinela/variousscripts/tree/main/arduino/esc).
