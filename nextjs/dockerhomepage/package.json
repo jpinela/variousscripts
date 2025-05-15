@@ -10,7 +10,7 @@
     "gitadd": "git add .",
     "gitcommit": "git commit -m \"upload \" ",
     "gitpush": "git push", 
-    "git": "npm run gitadd && npm run gitcommit && npm run gitpush"
+    "git": "npm run gitadd && npm run gitcommit && npm run gitpush" 
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
