@@ -36,7 +36,7 @@ warning: in the working copy of 'nextjs/dockerhomepage/jsconfig.json', LF will b
 warning: in the working copy of 'nextjs/dockerhomepage/next.config.mjs', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'nextjs/dockerhomepage/package.json', LF will be replaced by CRLF the next time Git touches it
 ```
-to solve this [link](https://github.com/orgs/community/discussions/66838)
+to solve this, we can use the following  [link](https://github.com/orgs/community/discussions/66838)
 ```
 D:\tmp\nextjsgit\variousscripts>git config --global core.autocrlf true
 ```
