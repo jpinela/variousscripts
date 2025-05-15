@@ -7,7 +7,7 @@ repository for Git testing and saving some nextjs projects with multiple purpose
 - [error analysis frontend](https://github.com/jpinela/variousscripts/tree/main/nextjs/EAF)
 
 GIT notes
-então para update foi
+então para update foi (com alterações remotas, os 1os dois são necessários)
 - git pull https:... repo.git
 - git stash
 - git add nextjs/README.md
