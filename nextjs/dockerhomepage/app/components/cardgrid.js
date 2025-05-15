@@ -7,7 +7,7 @@ const CardGrid = ({ cards }) => {
     <Box sx={{ flexGrow: 1, p: 5, background: "#cccccc" }} display="flex">
       <Grid container spacing={4} justifyContent="center"  background="#9999ff" direction="row" alignItems="stretch" display="flex" sx={{ flexGrow: 1}}>
         {cards.map((card, index) => (
-          <Grid key={index} item xs={12} sm={6} md={3} display="flex"  sx={{ flexGrow: 1, }} >
+          <Grid key={index} item xs={12} sm={6} md={2} lg={1} display="flex"  sx={{ flexGrow: 1, }} >
        <Card
           sx={{
             width: "100%",
