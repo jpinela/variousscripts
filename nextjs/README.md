@@ -14,7 +14,13 @@ então para update foi (com alterações remotas, os 1os dois são necessários)
 - git commit -m "changed readme"
 - git push
 
-para adicionar varias paginas / files, usar ```git add .```
+para adicionar varias paginas / files, sem edições em paralelo... usar 
+```
+git add .
+git commit -m "mensagem qualquer"
+git push
+```
+
 
 # NOTES
 
