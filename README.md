@@ -11,7 +11,7 @@ A brief description of your project, what it does, and why it exists.
   - Microservice-based design – [Microservices Guide](https://example.com/microservices)
  
 - **Li-Po Battery Charging** – (https://github.com/jpinela/variousscripts/arduino/li-pobatterycharging)
-  - Microservice-based design – [Microservices Guide](https://example.com/microservices)
+  - Microservice-based design – [Microservices Guide](https://example.com/microservices/)
 
 ## 🛠 N8N
 
