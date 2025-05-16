@@ -10,7 +10,7 @@ The components are the following:
 
 Here’s what the application looks like in action:
 
-![Charger](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshots/landing.png)
+![Charger](https://github.com/jpinela/variousscripts/edit/main/arduino/li-pobatterycharging/IMG20250508155011.jpg)
 
 A sleek, responsive landing page that looks great on all devices.
 
