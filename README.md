@@ -25,7 +25,7 @@ A brief description of your project, what it does, and why it exists.
 
 ## 🛠 NextJS
 
-- **Clone the Repo** – [GitHub Repo](https://github.com/your-username/your-repo)
+- **HomeFolder** – (https://github.com/jpinela/variousscripts/tree/main/nextjs)
   - Use SSH or HTTPS – [Cloning Instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
  
 ## 📄 License
