@@ -15,7 +15,7 @@ Here’s what the application looks like in action:
 
 A sleek, responsive landing page that looks great on all devices.
 
-![Charging](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshots/dashboard.png)
+![Charging](https://github.com/jpinela/variousscripts/blob/9f7e736d4aaea6e7fd990e94f2849c0a14a9237a/arduino/li-pobatterycharging/Images/IMG20250508155108.jpg)
 
 Feature-rich dashboard with charts, user controls, and real-time updates.
 
