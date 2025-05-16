@@ -4,13 +4,13 @@ A brief description of your project, what it does, and why it exists.
 
 ## 🚀 Arduino
 
-- **ESC Programming** – (https://github.com/jpinela/variousscripts/tree/749395d3215c22602529e3a2c32052b1579347b7/arduino/esc)
+- **ESC Programming** – (https://github.com/jpinela/variousscripts/tree/main/arduino/esc)
   - Uses caching and optimized algorithms – [Read details](https://example.com/performance)
 
 - **ESP32-Cam** – (https://github.com/jpinela/variousscripts/arduino/esp32-cam)
   - Microservice-based design – [Microservices Guide](https://example.com/microservices)
  
-- **Li-Po Battery Charging** – (https://github.com/jpinela/variousscripts/tree/749395d3215c22602529e3a2c32052b1579347b7/li-pobatterycharging/)
+- **Li-Po Battery Charging** – (https://github.com/jpinela/variousscripts/tree/main/li-pobatterycharging/)
   - Microservice-based design – [Microservices Guide](https://example.com/microservices/)
 
 ## 🛠 N8N
