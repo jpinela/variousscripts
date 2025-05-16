@@ -11,7 +11,7 @@ The components are the following:
 
 Here’s what the application looks like in action:
 
-![Charger](https://github.com/jpinela/variousscripts/edit/main/arduino/li-pobatterycharging/IMG20250508155011.jpg)
+![Charger](https://github.com/jpinela/variousscripts/blob/99622afcf3d2fdb970ab6c03ad6e22e10189d2af/arduino/li-pobatterycharging/Images/IMG20250508155011.jpg)
 
 A sleek, responsive landing page that looks great on all devices.
 
