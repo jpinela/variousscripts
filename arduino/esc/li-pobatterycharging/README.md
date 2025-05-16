@@ -1,0 +1,45 @@
+# Li-Po Battery Charging
+
+This page describes my experience charging a Li-Po battery for the first time.
+The components are the following:
+- Li-Po Battery Smart Charger ()
+- Li-Po Batter 3cell ()
+---
+
+## 🚀 Preview
+
+Here’s what the application looks like in action:
+
+![Charger](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshots/landing.png)
+
+A sleek, responsive landing page that looks great on all devices.
+
+![Charging](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshots/dashboard.png)
+
+Feature-rich dashboard with charts, user controls, and real-time updates.
+
+
+
+
+---
+
+## 📝 About the Project
+
+Awesome Project is designed to:
+
+- Serve as a production-ready starter kit.
+- Integrate seamlessly with modern DevOps tools.
+- Support scalable, component-based development.
+
+We’ve kept it modular and documented, so it’s easy to customize for your team or your clients.
+
+## 🔧 Technologies Used
+
+- **Next.js** – React framework with hybrid static & server rendering.
+- **Tailwind CSS** – Utility-first styling for rapid UI development.
+- **TypeScript** – Type-safe codebase for fewer bugs.
+- **Vercel** – Instant global deployment and previews.
+
+## 📂 Project Structure
+
+The codebase is organized to be clean and developer-friendly:
