@@ -56,7 +56,7 @@ export default nextConfig;
 depois, npm run build
 
 depois, copiei TUDO excepto o node_modules do folder ```standalone```
-(image / standalone.jpg)
+(https://github.com/jpinela/variousscripts/blob/a7b391af8361abf3a9d9b129b2988b76aba8cb22/nextjs/images/standalone.png)
 estrutura raiz da pata do docker
 ```
 .
@@ -164,4 +164,4 @@ sudo docker-compose up
 ```
 o que é certo é que funciona. bem ou mal.
 
-(homepage.png)
+(https://github.com/jpinela/variousscripts/blob/a7b391af8361abf3a9d9b129b2988b76aba8cb22/nextjs/images/homepage.png)
