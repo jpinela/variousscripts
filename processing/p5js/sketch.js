@@ -8,12 +8,18 @@ function drawGrid(){
   stroke(0,0,0);
   strokeWeight(2);
   for (let i=0;i<numRows;i++){ //desenhar linhas
+    if(i%2==1)
+        stroke(255,128,128);
     line(30, 100+unitPixels*i, 30+numCols*unitPixels, 100+unitPixels*i);     
-
+    if(i%2==1)
+        stroke(0,0,0);
   }
   for (let j=0;j<numCols;j++){ //desenhar barras
+    if(j%2==1)
+      stroke(255,128,128);
     line(30+unitPixels*j, 100, 30+unitPixels*j, 100+unitPixels*numRows); 
- 
+    if(j%2==1)
+      stroke(0,0,0);
   }
   strokeWeight(1);
 }
@@ -36,12 +42,12 @@ function drawRobot2(ang1degs,ang2degs,ang3degs){
   let pointarm1y=100+40*arm1l*sin(ang1);
   line(30,100,pointarm1x,pointarm1y);
 
-  let pointarm2x=pointarm1x+40*arm2l*cos(ang2);
-  let pointarm2y=pointarm1y+40*arm2l*sin(ang2);
+  let pointarm2x=pointarm1x+40*arm2l*cos(ang1+ang2);
+  let pointarm2y=pointarm1y+40*arm2l*sin(ang1+ang2);
   line(pointarm1x,pointarm1y,pointarm2x,pointarm2y);
 
-  let pointarm3x=pointarm2x+40*arm3l*cos(ang3);
-  let pointarm3y=pointarm2y+40*arm3l*sin(ang3);
+  let pointarm3x=pointarm2x+40*arm3l*cos(ang1+ang2+ang3);
+  let pointarm3y=pointarm2y+40*arm3l*sin(ang1+ang2+ang3);
   line(pointarm2x,pointarm2y,pointarm3x,pointarm3y);
 
   stroke(255,255,255);
@@ -84,4 +90,11 @@ function draw() {
 
   drawGrid();
   drawRobot2(val,val2,val3);
+  //Example – Two-Link Planar Manipulator (Trigonometry Method)
+  x=4*cos(val*PI/180)+3*cos((val+val2)*PI/180)+2*cos((val+val2+val3)*PI/180);
+  y=4*sin(val*PI/180)+3*sin((val+val2)*PI/180)+2*sin((val+val2+val3)*PI/180);
+  text(x+","+y,30,550); //working
+  strokeWeight(10);
+  point(30+40*x,100+40*y);
+  strokeWeight(1);
 }
