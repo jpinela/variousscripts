@@ -1,0 +1,7 @@
+
+este o boneco considerava rotacoes em sentidos diferentes. nao percebo nem concordo
+https://opentextbooks.clemson.edu/wangrobotics/chapter/forward-kinematics/
+
+este logo na figura 1 tem os angulos na rotacao certa
+https://iopscience.iop.org/article/10.1088/1742-6596/1773/1/012009/pdf
+
