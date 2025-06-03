@@ -52,15 +52,15 @@ function setup() {
   createCanvas(600, 600);
 
   //https://editor.p5js.org/gr.gromko/sketches/f-oF3Cf0q
-  slider = createSlider(0, 180, 90); //повзунок, значення 0-255
+  slider = createSlider(-90, 90, 0); //повзунок, значення 0-255
   slider.position(20, 15);  //позиція
   slider.style('width', '200px'); // стиль
 
-  slider2 = createSlider(0, 180, 90); //повзунок, значення 0-255
+  slider2 = createSlider(-90, 90, 0); //повзунок, значення 0-255
   slider2.position(20, 35);  //позиція
   slider2.style('width', '200px'); // стиль
 
-  slider3 = createSlider(0, 180, 90); //повзунок, значення 0-255
+  slider3 = createSlider(-90, 90, 0); //повзунок, значення 0-255
   slider3.position(20, 55);  //позиція
   slider3.style('width', '200px'); // стиль
 
