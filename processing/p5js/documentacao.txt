@@ -5,3 +5,11 @@ https://opentextbooks.clemson.edu/wangrobotics/chapter/forward-kinematics/
 este logo na figura 1 tem os angulos na rotacao certa
 https://iopscience.iop.org/article/10.1088/1742-6596/1773/1/012009/pdf
 
+este é para o chord calc
+https://www.google.com/search?q=circle+cord+length&sca_esv=28e4df54c19560e0&sxsrf=AE3TifMKKVKVb9u8a6BM_frH_4aGpdis4Q%3A1749844489276&source=hp&ei=CYJMaOu_DtCnkdUPq-e72Ao&iflsig=AOw8s4IAAAAAaEyQGQktIMjZULjw2DdG3ssrBbk2Lt1i&oq=circle+co&gs_lp=Egdnd3Mtd2l6IgljaXJjbGUgY28qAggAMgQQIxgnMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAuGIAEGMcBGK8BSOzjBFCCxwRYitgEcAV4AJABAJgBhgGgAZQKqgEEMS4xMLgBA8gBAPgBAZgCEKAC2AqoAgrCAgcQIxgnGOoCwgILEC4YgAQY0QMYxwHCAgUQLhiABMICChAjGIAEGCcYigXCAggQLhiABBjUAsICChAuGIAEGNQCGArCAgcQABiABBgKmAMI8QW0g8UBfa7YGZIHBDYuMTCgB5h9sgcEMS4xMLgHwgrCBwgwLjExLjMuMsgHOw&sclient=gws-wiz#vhid=tbhm1Jhkgg7IBM&vssid=l
+
+git checkout -b v03
+git add .
+git commit -m "texto"
+git push
+-- ir ao github aprovar o PR
