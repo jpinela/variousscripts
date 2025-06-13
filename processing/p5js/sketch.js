@@ -55,7 +55,7 @@ function drawRobot2(ang1degs,ang2degs,ang3degs){
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 700);
 
   //https://editor.p5js.org/gr.gromko/sketches/f-oF3Cf0q
   slider = createSlider(-90, 90, 0); //повзунок, значення 0-255
@@ -70,9 +70,30 @@ function setup() {
   slider3.position(20, 55);  //позиція
   slider3.style('width', '200px'); // стиль
 
+  slider4 = createSlider(0,50,25); //повзунок, значення 0-255
+  slider4.position(30, 550);  //позиція
+  slider4.style('width', '200px'); // стиль
+
   background("aqua");
   drawGrid();
 
+}
+
+function cordCalc(sl4value){
+
+  circle(100,630,100);
+  stroke(0,0,0);
+  strokeWeight(0.5);
+  line(50,630,150,630);
+  line(100,630,100,630-sl4value)
+
+  chord_length=2*sqrt(50*50-sl4value*sl4value);
+  line(50+50-chord_length/2,630-sl4value,50+50+chord_length/2,630-sl4value);
+
+    text(round(chord_length,2),200,630);
+
+  stroke(255,255,255);
+  strokeWeight(1);
 }
 
 function draw() {
@@ -83,6 +104,7 @@ function draw() {
   let val = slider.value();
   let val2 = slider2.value();
   let val3 = slider3.value();
+  let val4 = slider4.value();
 
   text(val,0,30);
   text(val2,0,50);
@@ -90,10 +112,12 @@ function draw() {
 
   drawGrid();
   drawRobot2(val,val2,val3);
+  cordCalc(val4);
+
   //Example – Two-Link Planar Manipulator (Trigonometry Method)
   x=4*cos(val*PI/180)+3*cos((val+val2)*PI/180)+2*cos((val+val2+val3)*PI/180);
   y=4*sin(val*PI/180)+3*sin((val+val2)*PI/180)+2*sin((val+val2+val3)*PI/180);
-  text(x+","+y,30,550); //working
+  text(round(x,2)+","+round(y,2),330,50); //working
   strokeWeight(10);
   point(30+40*x,100+40*y);
   strokeWeight(1);
