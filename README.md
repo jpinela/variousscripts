@@ -32,3 +32,7 @@ A brief description of your project, what it does, and why it exists.
 
 - **MIT License** – [LICENSE](./LICENSE)
   - Free for commercial and personal use – [MIT Overview](https://opensource.org/licenses/MIT)
+
+## Docker-Podman
+- **Podman Oracle26ai**
+  - Oracle guide - [webpage](https://oracle-base.com/articles/23/ai-vector-search-23)
